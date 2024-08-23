@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "frijole";
+  src: url("./assets/Frijole-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* .btn-metallic {
+    color: #fff;
+    background: linear-gradient(180deg, #FFD700 0%, #DAA520 49%, #B8860B 51%, #DAA520 100%);
+ 
+  } */
+
+.btn-metallic {
+  color: #222224;
+  font: bold;
+  background: linear-gradient(170deg, #fffbf8 49%, #c3914b 51%);
+}
+
+.custom-btn {
+  color: #222224;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  background: transparent;
+  display: inline-block;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: 1px solid #ba6;
+}
+
+.btn-3 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a95),
+    to(#fea)
+  );
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2A2525; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffd700; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b8860b; /* Color of the scrollbar handle when hovered */
+}
